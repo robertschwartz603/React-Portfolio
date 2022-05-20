@@ -1,6 +1,8 @@
 import React from "react";
 // Import hooks from React Router
 
+import { Card, Button } from 'react-bootstrap';
+
 const Project = () => {
   return (
     <div>
@@ -29,7 +31,7 @@ const Project = () => {
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
-      
+
       {/* PROJECT CARD TWO */}
       <Card style={{ width: "18rem" }}>
         <Card.Img variant="top" src="holder.js/100px180" />v

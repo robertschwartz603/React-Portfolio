@@ -7,8 +7,8 @@ import Header from './components/Header';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
-import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import Footer from './components/Footer';
 
 function App() {
   return (
