@@ -1,23 +1,16 @@
-import React from 'react';
-import { Navbar, Container } from 'react-bootstrap';
+import React from "react";
 
-
-export default function Navigaton(props) {
+function Navigaton(props) {
+  //const { currentTab, setCurrentTab } = props;
 
   return (
-    <Navbar bg="dark" variant="dark">
-    <Container>
-      <Navbar.Brand href="#home">
-        <img
-          alt=""
-          src="/logo.svg"
-          width="30"
-          height="30"
-          className="d-inline-block align-top"
-        />{' '}
-      React Bootstrap
-      </Navbar.Brand>
-    </Container>
-  </Navbar>
+    <Nav className="me-auto">
+      <Nav.Link href="/">About</Nav.Link>
+      <Nav.Link href="/contact">Contact</Nav.Link>
+      <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+      <Nav.Link href="/resume">Resume</Nav.Link>
+    </Nav>
   );
 }
+
+export default Navigaton;
