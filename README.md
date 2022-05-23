@@ -5,7 +5,7 @@
 ## Description
 A portfolio of some select coding projects using React and React-Bootstrap. In this app, you can contact me via a supplied form, view information about me, explore projects, and download my resume. This app uses React Router to support conditional rendering of page content.
 
-a deployed example of this website can be found here: (INSERT GH-PAGES LINK)
+a deployed example of this website can be found here: https://robertschwartz603.github.io/react-portfolio/
 
 ![Screen grab:](./assets/screenshot.jpg)
 
