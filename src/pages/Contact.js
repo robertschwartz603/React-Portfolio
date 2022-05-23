@@ -29,7 +29,7 @@ const Contact = () => {
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label>Your Email</Form.Label>
-          <Form.Control type="email" placeholder="name@example.com" />
+          <Form.Control type="email" required placeholder="name@example.com" />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
           <Form.Label>What can I do for you?</Form.Label>
